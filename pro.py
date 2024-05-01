@@ -1,15 +1,17 @@
+#Dont run
 import os
 from pathlib import Path
 import logging
 
 logging.basicConfig(level=logging.INFO , format='[%(asctime)s]: %(message)s:')
 
-project_name = "wasteDetection"
+project_name = "Detection"
 list_of_files = [
                 ".github/workflows/.gitkeep",
                 "data/.gitkeep",
                 f"{project_name}/__init__.py",
                 f"{project_name}/components/__init__.py",
+                f"{project_name}/components/data_ingestion.py",
                 f"{project_name}/components/data_validation.py",
                 f"{project_name}/components/model_trainee.py",
                 f"{project_name}/constant/__init__.py",

@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='wasteDetection',
+    name='TheftDetection',
     version='0.0.0',
     author='Abhishek',
     author_email='abhishekchoudhary7381@gmail.com',
